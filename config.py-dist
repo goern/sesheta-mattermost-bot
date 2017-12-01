@@ -1,0 +1,12 @@
+USERNAME = "sesheta"
+ICON_URL = ""
+MATTERMOST_WEBHOOK_URLS = {
+    'default': ("https://mm.example.com/hooks/token", "off-topic"),
+}
+SECRET = None
+SHOW_AVATARS = True
+SERVER = {
+    'hook': "/",
+    'address': "0.0.0.0",
+    'port': 8080,
+}
